@@ -2,7 +2,7 @@ $navbar-background-color: $white !default
 $navbar-height: 3.75rem !default
 
 $navbar-item-color: $grey-dark !default
-$navbar-item-hover-color: $black !default
+$navbar-item-hover-color: $primary !default
 $navbar-item-hover-background-color: $background !default
 $navbar-item-active-color: $black !default
 $navbar-item-active-background-color: transparent !default
@@ -37,7 +37,6 @@ $navbar-divider-background-color: $border !default
   background-color: $navbar-background-color
   min-height: $navbar-height
   position: relative
-  padding: 0 10%
   & > .container
     align-items: stretch
     display: flex
@@ -136,13 +135,19 @@ a.navbar-item,
     .navbar-item
       align-items: center
       display: flex
+
+
   .navbar-menu
     box-shadow: 0 8px 16px rgba($black, 0.1)
-    padding: 0.5rem 0
     &.is-active
       display: block
+  .navbar-item 
+    border-top: 1px solid rgba(219,219,219,0.5)
+    padding: 0.75rem
 
 +desktop
+  .navbar
+    padding: 0 10%
   .navbar,
   .navbar-menu,
   .navbar-start,

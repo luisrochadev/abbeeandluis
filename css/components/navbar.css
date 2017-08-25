@@ -3,7 +3,7 @@ Error: Undefined variable: "$white".
         on line 1 of sass/components/navbar.sass
 
 1: $navbar-background-color: $white !default
-2: $navbar-height: 3.25rem !default
+2: $navbar-height: 3.75rem !default
 3: 
 4: $navbar-item-color: $grey-dark !default
 5: $navbar-item-hover-color: $black !default
@@ -53,4 +53,4 @@ sass/components/navbar.sass:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 1 of sass/components/navbar.sass\A \A 1: $navbar-background-color: $white !default\A 2: $navbar-height: 3.25rem !default\A 3: \A 4: $navbar-item-color: $grey-dark !default\A 5: $navbar-item-hover-color: $black !default\A 6: $navbar-item-hover-background-color: $background !default"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 1 of sass/components/navbar.sass\A \A 1: $navbar-background-color: $white !default\A 2: $navbar-height: 3.75rem !default\A 3: \A 4: $navbar-item-color: $grey-dark !default\A 5: $navbar-item-hover-color: $black !default\A 6: $navbar-item-hover-background-color: $background !default"; }
