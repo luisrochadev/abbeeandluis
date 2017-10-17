@@ -5619,6 +5619,10 @@ label.panel-block {
     @media screen and (max-width: 769px) {
       .section .question {
         padding: 2rem 0; } }
+  .section#is-contact {
+    background-color: #F3D9D9; }
+    .section#is-contact i {
+      color: white; }
   @media screen and (min-width: 1008px) {
     .section.is-medium {
       padding: 9rem 1.5rem; }
