@@ -1447,7 +1447,7 @@ a.box:active {
 .content h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
-  font-family: Champignon; }
+  font-family: "Champignon"; }
   .content h1:not(:first-child) {
     margin-top: 1em; }
 .content h2 {
@@ -2759,7 +2759,7 @@ a.tag:hover {
 
 .title {
   color: #F3D9D9;
-  font-family: Champignon;
+  font-family: "Champignon";
   font-size: 4rem;
   font-weight: 400;
   line-height: 1.125; }
@@ -3704,7 +3704,7 @@ a.nav-item:not(.button) {
   min-height: 3.75rem;
   overflow-x: auto;
   overflow-y: hidden;
-  font-family: Champignon;
+  font-family: "Champignon";
   font-size: 1.5rem; }
 
 .navbar-burger {
