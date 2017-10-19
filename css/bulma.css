@@ -5554,9 +5554,9 @@ label.panel-block {
   .hero.is-halfheight#is-main, .hero.is-fullheight#is-main {
     background-image: url("../assets/abbee-luis-engagement.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    background-position: center top; }
+    background-position: center top;
+    background-attachment: fixed; }
   .hero.is-halfheight {
     min-height: 50vh; }
   .hero.is-fullheight {
