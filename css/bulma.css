@@ -5545,20 +5545,19 @@ label.panel-block {
     .hero.is-large .hero-body {
       padding-bottom: 18rem;
       padding-top: 18rem; } }
-  .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body {
-    align-items: center;
-    display: flex; }
-    .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container {
-      flex-grow: 1;
-      flex-shrink: 1; }
-  .hero.is-halfheight#is-main, .hero.is-fullheight#is-main {
-    background-image: url("../assets/abbee-luis-engagement.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed; }
-  .hero.is-halfheight {
+  .hero.is-halfheight, .hero.is-fullheight {
     min-height: 50vh; }
+    .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body {
+      align-items: center;
+      display: flex; }
+      .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container {
+        flex-grow: 1;
+        flex-shrink: 1; }
+    .hero.is-halfheight#is-main, .hero.is-fullheight#is-main {
+      background-image: url("../assets/abbee-luis-engagement.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top; }
   .hero.is-fullheight {
     min-height: 100vh; }
 
