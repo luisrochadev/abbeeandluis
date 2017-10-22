@@ -24,6 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  $("#learn-more-button").on('click',function() {
+    $('html, body').animate({
+        'scrollTop' : $("#is-accommodations").position().top
+    });
+});
+
   // Dropdowns
 
   var $dropdowns = getAll('.dropdown:not(.is-hoverable)');
