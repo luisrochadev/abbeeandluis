@@ -5621,6 +5621,8 @@ label.panel-block {
   .section#is-contact {
     background-color: #F3D9D9; }
     .section#is-contact i {
+      margin-bottom: 0.25em; }
+    .section#is-contact i, .section#is-contact a {
       color: white; }
   @media screen and (min-width: 1008px) {
     .section.is-medium {
