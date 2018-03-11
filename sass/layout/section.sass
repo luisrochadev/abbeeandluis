@@ -5,11 +5,26 @@ $section-padding-large: 18rem 1.5rem !default
 .section
   padding: $section-padding
   text-align: center
+
+  &#is-venue
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("../assets/rancho-l86-venue.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: left 
+    min-height: 500px
+
   &#is-accommodations
-        background-image: url("../assets/guest-hotel.jpg")
-        background-repeat: no-repeat
-        background-size: cover
-        background-position: center 
+    background-color: #f1f1f1
+    +desktop
+      padding: 12px
+      .column 
+        padding: 5em 0
+    #hotel-image 
+      background-image: url("../assets/hotel-coral-marina.jpg")
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: left 
+      min-height: 500px
   .question 
     padding: 2.5rem 25%
     @media screen and (max-width: $tablet )

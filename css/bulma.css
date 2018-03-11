@@ -5545,21 +5545,32 @@ label.panel-block {
     .hero.is-large .hero-body {
       padding-bottom: 18rem;
       padding-top: 18rem; } }
-  .hero.is-halfheight, .hero.is-fullheight {
+  .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body {
+    align-items: center;
+    display: flex; }
+    .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container {
+      flex-grow: 1;
+      flex-shrink: 1; }
+  .hero.is-halfheight#is-main, .hero.is-fullheight#is-main {
+    background-image: url("../assets/abbee-luis-engagement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
     min-height: 50vh; }
-    .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body {
-      align-items: center;
-      display: flex; }
-      .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container {
-        flex-grow: 1;
-        flex-shrink: 1; }
-    .hero.is-halfheight#is-main, .hero.is-fullheight#is-main {
-      background-image: url("../assets/abbee-luis-engagement.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top; }
-  .hero.is-fullheight {
-    min-height: 100vh; }
+    .hero.is-halfheight#is-main img, .hero.is-fullheight#is-main img {
+      display: block;
+      margin: 2em auto;
+      width: 400px; }
+    .hero.is-halfheight#is-main a, .hero.is-fullheight#is-main a {
+      display: block;
+      width: 275px;
+      margin-bottom: 48em;
+      margin: 0 auto 0.5em; }
+      .hero.is-halfheight#is-main a i, .hero.is-fullheight#is-main a i {
+        font-size: 1.5em;
+        margin-right: 5px; }
+    .hero.is-halfheight#is-main.is-fullheight, .hero.is-fullheight#is-main.is-fullheight {
+      min-height: 100vh; }
 
 .hero-video {
   bottom: 0;
@@ -5608,11 +5619,25 @@ label.panel-block {
 .section {
   padding: 3rem 1.5rem;
   text-align: center; }
-  .section#is-accommodations {
-    background-image: url("../assets/guest-hotel.jpg");
+  .section#is-venue {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/rancho-l86-venue.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; }
+    background-position: left;
+    min-height: 500px; }
+  .section#is-accommodations {
+    background-color: #f1f1f1; }
+    @media screen and (min-width: 1008px) {
+      .section#is-accommodations {
+        padding: 12px; }
+        .section#is-accommodations .column {
+          padding: 5em 0; } }
+    .section#is-accommodations #hotel-image {
+      background-image: url("../assets/hotel-coral-marina.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+      min-height: 500px; }
   .section .question {
     padding: 2.5rem 25%; }
     @media screen and (max-width: 769px) {
