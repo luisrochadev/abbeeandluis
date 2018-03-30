@@ -132,7 +132,7 @@ code {
   padding: 0.25em 0.5em 0.25em; }
 
 hr {
-  background-color: #f3d9d9;
+  background-color: lightgray;
   border: none;
   display: block;
   height: 1px;
@@ -2758,7 +2758,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #F3D9D9;
+  color: #829EAB;
   font-family: "Pinyon Script", cursive;
   font-size: 3rem;
   font-weight: 400;
@@ -5643,12 +5643,28 @@ label.panel-block {
     @media screen and (max-width: 769px) {
       .section .question {
         padding: 2rem 0; } }
+  .section .button {
+    background-color: #829EAB; }
+  .section#is-faq .subtitle {
+    color: #829EAB;
+    font-weight: 600;
+    margin: 0.25rem 1rem 1.25rem; }
+  .section#is-faq p {
+    color: #666;
+    font-weight: 500; }
   .section#is-contact {
     background-color: #F3D9D9; }
     .section#is-contact i {
       margin-bottom: 0.25em; }
     .section#is-contact i, .section#is-contact a {
       color: white; }
+  .section#is-seeyouthere {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url("../assets/see-you-there.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    .section#is-seeyouthere .title {
+      color: #F3D9D9; }
   @media screen and (min-width: 1008px) {
     .section.is-medium {
       padding: 9rem 1.5rem; }

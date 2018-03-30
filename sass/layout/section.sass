@@ -29,6 +29,17 @@ $section-padding-large: 18rem 1.5rem !default
     padding: 2.5rem 25%
     @media screen and (max-width: $tablet )
       padding: 2rem 0
+  .button 
+    background-color: $steelblue
+
+  &#is-faq
+    .subtitle 
+      color: $steelblue
+      font-weight: 600
+      margin: .25rem 1rem 1.25rem
+    p
+      color: #666
+      font-weight: 500
 
   &#is-contact
     background-color: $nude
@@ -36,6 +47,14 @@ $section-padding-large: 18rem 1.5rem !default
       margin-bottom: .25em
     i, a
       color: $white
+ 
+  &#is-seeyouthere
+    background-image:  linear-gradient( rgba(20,20,20, .5), rgba(20,20,20, .5)), url("../assets/see-you-there.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    .title
+      color: $nude
 
     
   // Responsiveness
